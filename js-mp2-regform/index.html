@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer type="module" src="script/main.js"></script>
+</head>
+<body>
+    <div class="label">
+        <span>Registation</span>
+    </div>    
+    <form action="#" method="#">
+        <label for="name">Fullname:</label>
+        <input type="text" placeholder="ex. Juan Dela Cruz" id="name" required>
+
+        <label for="Address">Address:</label>
+        <select name="slctRegion" id="slctRegion" required>
+            <option selected disabled>Select a Region</option>
+        </select>
+        <select name="slctProvince" id="slctProvince" required>
+            <option selected disabled>Select a Province</option>
+        </select>
+        <select name="slctCity" id="slctCity" required>
+            <option selected disabled>Select a City</option>
+            <option>N/A</option>
+        </select>
+        <select name="slctMunicipality" id="slctMunicipality">
+            <option selected disabled>Select a Municipality</option>
+            <option>N/A</option>
+        </select>
+
+
+        <label for="birthday">Birthday: </label>
+        <input type="date" placeholder="dd/mm/yy" id="birthday" required>
+        
+
+        <label for="email">Email: </label>
+        <input type="email" placeholder="ex. juandelacruz@gmail.com" id="email" required>
+
+        <label for="contactNumber">Contact Number: </label>
+        <input type="text" placeholder="+6391234567890" id="contactNumber" required>
+
+        <label for="slctEduclbckgrnd">Educational Background: </label>
+        <select id="educationalBackground" required>
+            <option>High School (9-12)</option>
+            <option>Bachelors</option>
+            <option>Diploma</option>
+            <option>Post Graduate</option>
+            <option>Masters</option>
+            <option>Other</option>
+        </select>
+
+        <label for="maritalStatus">Marital Status: </label>
+        <select id="maritalStatus" required>
+                    <option>Single</option>
+                    <option>Married</option>
+                    <option>Widowed</option>
+        </select>
+        
+        <label for="occupation">Occupation: </label>
+        <input type="text" placeholder="ex. Office Staff" id="occupation" required>
+
+        <label for="slctGender">Gender: </label>
+        <select id="gender" required>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Prefer Not to Say</option>
+        </select>
+
+        <label for="validPassport">I currently hold a valid Passport: </label>
+        <select id="validpassport" required>
+                <option>Yes</option>
+                <option>No</option>
+        </select>
+
+        <label for="slctLanguage">I speak: </label>
+        <select id="slctLanguage" required>
+                <option>English</option>
+                <option>French</option>
+                <option>Other</option>
+        </select>
+        <div class="btn-container">
+            <input type="submit" value="Register" id="addBtn" class="add-btn">
+        </div>
+    </form>
+</body>
+</html>
+    

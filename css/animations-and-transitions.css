@@ -1,0 +1,46 @@
+/* utilities */
+    /* navs */
+    .animateNav {
+        background-color: rgb(241, 188, 13);
+        .login-btn {
+            background-color: black;
+        }
+    }
+    .animateNav:hover {
+        background-color: black;
+        .login-btn {
+            background-color: rgb(241, 188, 13);
+        }
+        .login-btn:hover {
+            outline: 5px solid white;
+        }
+    }
+
+    /* introduction section */
+    .show {
+        transform: translateX(0);
+    }
+
+    /* about section */
+    .MnV-active {
+        transform: translateX(0);
+    }
+    .a-active {
+        opacity: 0;
+    }
+
+    /* gallery */
+    .showGallery {
+        opacity: 1;
+    }
+
+/* keyframes */
+    /* introduction animation */
+    @keyframes animateIntroTxt {
+        from {
+            transform: translateX(-100px);
+        }
+        to {
+            transform: translateX(0)
+        }
+    }

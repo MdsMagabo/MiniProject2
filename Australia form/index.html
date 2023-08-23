@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <form class="form-container">
+        <div class="row">
+            <div class="col">
+                <label for="exampleInputEmail1" class="form-label">First name:</label>
+              <input type="text" class="form-control" aria-label="First name">
+            </div>
+            <div class="col">
+                <label for="exampleInputEmail1" class="form-label">Last name:</label>
+              <input type="text" class="form-control" aria-label="Last name">
+            </div>
+          </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Mobile Number</label>
+            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Please enter a valid phone number</div>
+          </div>
+          <label for="councelling" class="form-label">Preferred mode of counselling</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Please Select</option>
+            <option value="1">In-Person</option>
+            <option value="2">Virtual Councelling</option>
+          </select>
+          <br>
+          <label for="fund-education" class="form-label">How would you fund your education?</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Please Select</option>
+            <option value="1">Self-funded</option>
+            <option value="2">Parents</option>
+            <option value="3">Seeking Scholarship</option>
+            <option value="4">Other</option>
+          </select>
+          <br>
+          <label for="education" class="form-label">Preferred study level</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Please Select</option>
+            <option value="1">Bachelore</option>
+            <option value="2">Masteral</option>
+            <option value="3">Doctorate</option>
+            <option value="4">Other</option>
+          </select>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                I agree to IDP <a href="#">Terms</a>  and <a href="#">privacy policy</a>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+                Please contact me by phone, email or SMS to assist with my enquiry
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+                I would like to receive updates and offers from Kabayan Visa Center
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Help me study abroad</button>
+        </form>
+    </form>
+  </body>
+</html>
