@@ -31,8 +31,9 @@ body {
     .navbar {
         display: flex;
         width:75%;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
+        gap: 50px;
     }
     .navbar a {
         position: relative;
@@ -289,7 +290,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0.479);
     font-size: 15px;
     text-decoration: none;
     width: 150px;
@@ -439,7 +440,7 @@ body {
       
       
       span.num {
-        color: black;
+        color: rgba(0, 0, 0, 0.637);
         display: grid;
         place-items: center;
         font-weight: 600;
@@ -624,7 +625,7 @@ body {
         text-align: center;
         padding-top: 10px;
         font-size: 50px;
-        color: black;
+        color: white;
     }
     .slide-row {
         display: flex;
@@ -822,6 +823,7 @@ ul {
 	margin-bottom: 35px;
 	font-weight: 500;
 	position: relative;
+    margin-left: 30px;
 }
 .footer-col h4::before {
 	content: '';
