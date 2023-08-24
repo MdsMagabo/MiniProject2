@@ -496,10 +496,7 @@ body {
 /* Gallery */
     .wrapper {
         max-width: 75rem;
-        padding: 2rem;
         margin: 0 auto;
-        margin-top: 100px;
-
         opacity: 0;
         transition: all 1.5s ease-in-out;
     }
