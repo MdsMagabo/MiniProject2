@@ -11,7 +11,16 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-image: url(img-2.jpg);
+    background-image: url(img.jpg);
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+}
+.title-form {
+    background: #cd1b1b;
+    width: 200vh;
+    text-align: center;
+    color: wheat;
+    background: linear-gradient(106.42deg, rgba(0, 0, 0, 0.9) 34.21%, rgba(0, 0, 0, 0) 70.53%);
 }
 .form-container {
     max-width: 700px;
